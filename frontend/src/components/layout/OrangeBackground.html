@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animated Orange Background</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: #0f172a;
+        }
+
+        .gradient-orb {
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(120px);
+            pointer-events: none;
+            mix-blend-mode: screen;
+            will-change: transform;
+        }
+
+        .orb-1 {
+            width: 800px;
+            height: 800px;
+            background: radial-gradient(circle, rgba(251, 146, 60, 0.6) 0%, transparent 70%);
+            top: -20%;
+            right: -20%;
+        }
+
+        .orb-2 {
+            width: 700px;
+            height: 700px;
+            background: radial-gradient(circle, rgba(234, 88, 12, 0.55) 0%, transparent 70%);
+            bottom: -20%;
+            left: -20%;
+        }
+
+        .orb-3 {
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(251, 191, 36, 0.45) 0%, transparent 70%);
+            top: 30%;
+            left: 20%;
+        }
+
+        .orb-4 {
+            width: 550px;
+            height: 550px;
+            background: radial-gradient(circle, rgba(194, 65, 12, 0.5) 0%, transparent 70%);
+            top: 10%;
+            right: 10%;
+        }
+
+        .orb-5 {
+            width: 650px;
+            height: 650px;
+            background: radial-gradient(circle, rgba(249, 115, 22, 0.45) 0%, transparent 70%);
+            bottom: 10%;
+            right: 20%;
+        }
+
+        .grid-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                linear-gradient(rgba(251, 146, 60, 0.08) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(251, 146, 60, 0.08) 1px, transparent 1px);
+            background-size: 60px 60px;
+            pointer-events: none;
+            z-index: 10;
+        }
+
+        .noise-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0.03;
+            pointer-events: none;
+            z-index: 11;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gradient-orb orb-1"></div>
+    <div class="gradient-orb orb-2"></div>
+    <div class="gradient-orb orb-3"></div>
+    <div class="gradient-orb orb-4"></div>
+    <div class="gradient-orb orb-5"></div>
+    <div class="grid-overlay"></div>
+    <div class="noise-overlay"></div>
+
+    <script>
+        const orbs = document.querySelectorAll('.gradient-orb');
+        const basePositions = [];
+
+        orbs.forEach((orb, i) => {
+            basePositions.push({
+                speedX: 0.3 + Math.random() * 0.4,
+                speedY: 0.2 + Math.random() * 0.3,
+                offsetX: Math.random() * Math.PI * 2,
+                offsetY: Math.random() * Math.PI * 2,
+                rangeX: 50 + Math.random() * 60,
+                rangeY: 40 + Math.random() * 50
+            });
+        });
+
+        let time = 0;
+        let mouseX = 0;
+        let mouseY = 0;
+
+        function animate() {
+            time += 0.008;
+
+            orbs.forEach((orb, i) => {
+                const pos = basePositions[i];
+                const moveX = Math.sin(time * pos.speedX + pos.offsetX) * pos.rangeX + mouseX * (0.3 + i * 0.1);
+                const moveY = Math.cos(time * pos.speedY + pos.offsetY) * pos.rangeY + mouseY * (0.3 + i * 0.1);
+
+                orb.style.transform = `translate(${moveX}px, ${moveY}px)`;
+            });
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+
+        document.addEventListener('mousemove', (e) => {
+            mouseX = (e.clientX / window.innerWidth - 0.5) * 40;
+            mouseY = (e.clientY / window.innerHeight - 0.5) * 40;
+        });
+    </script>
+</body>
+
+</html>
