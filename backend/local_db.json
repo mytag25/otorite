@@ -1,0 +1,1143 @@
+{
+  "vehicles": [
+    {
+      "id": "1855cc62-c1bc-4c53-ab39-68cbfc8bf835",
+      "brand": "bmw",
+      "model": "3 Series",
+      "year": 2024,
+      "segment": "d-sedan",
+      "image": "https://www.topgear.com/sites/default/files/2025/08/P90580559_highRes_the-bmw-330e-saloon-.jpg?w=976&h=549",
+      "specs": {
+        "engine": "2.0L Turbo",
+        "power": "258 hp",
+        "torque": "400 Nm",
+        "acceleration": "5.8s",
+        "topSpeed": "250 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Olgun platform, ancak baz\u0131 elektronik sorunlar bildirilmi\u015f",
+            "en": "Mature platform with some reported electronic issues",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "buildQuality": {
+          "score": 8.5,
+          "justification": {
+            "tr": "Premium malzemeler ve hassas montaj",
+            "en": "Premium materials and precise assembly",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "performance": {
+          "score": 8.8,
+          "justification": {
+            "tr": "G\u00fc\u00e7l\u00fc motor se\u00e7enekleri ve keskin tepkiler",
+            "en": "Powerful engine options with sharp responses",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "drivingExperience": {
+          "score": 9.0,
+          "justification": {
+            "tr": "Segment lideri direksiyon hissi ve dinamikler",
+            "en": "Segment-leading steering feel and dynamics",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "technology": {
+          "score": 8.5,
+          "justification": {
+            "tr": "iDrive 8 sistemi sezgisel ve kapsaml\u0131",
+            "en": "iDrive 8 system is intuitive and comprehensive",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "safety": {
+          "score": 8.7,
+          "justification": {
+            "tr": "Euro NCAP 5 y\u0131ld\u0131z, geli\u015fmi\u015f ADAS",
+            "en": "Euro NCAP 5 stars with advanced ADAS",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "costOfOwnership": {
+          "score": 6.5,
+          "justification": {
+            "tr": "Premium segment bak\u0131m maliyetleri",
+            "en": "Premium segment maintenance costs",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "design": {
+          "score": 8.5,
+          "justification": {
+            "tr": "Sportif oranlar, modern i\u00e7 mekan",
+            "en": "Sporty proportions with modern interior",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "valueForMoney": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Y\u00fcksek fiyat ancak g\u00fc\u00e7l\u00fc donan\u0131m",
+            "en": "High price but strong equipment",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        },
+        "overall": {
+          "score": 8.1,
+          "justification": {
+            "tr": "Segmentinin en dinamik se\u00e7ene\u011fi",
+            "en": "Most dynamic choice in its segment",
+            "de": "",
+            "fr": "",
+            "es": "",
+            "it": "",
+            "nl": "",
+            "pt": "",
+            "pl": "",
+            "ar": ""
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "\u00dcst\u00fcn s\u00fcr\u00fc\u015f dinamikleri",
+          "Premium i\u00e7 mekan",
+          "G\u00fc\u00e7l\u00fc motor"
+        ],
+        "en": [
+          "Superior driving dynamics",
+          "Premium interior",
+          "Powerful engine"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": [],
+        "nl": [],
+        "pt": [],
+        "pl": [],
+        "ar": []
+      },
+      "weaknesses": {
+        "tr": [
+          "Y\u00fcksek bak\u0131m maliyeti",
+          "Sert s\u00fcspansiyon"
+        ],
+        "en": [
+          "High maintenance cost",
+          "Firm suspension"
+        ],
+        "de": [],
+        "fr": [],
+        "es": [],
+        "it": [],
+        "nl": [],
+        "pt": [],
+        "pl": [],
+        "ar": []
+      },
+      "bestFor": {
+        "tr": "S\u00fcr\u00fc\u015f keyfi arayanlar",
+        "en": "Those seeking driving pleasure",
+        "de": "",
+        "fr": "",
+        "es": "",
+        "it": "",
+        "nl": "",
+        "pt": "",
+        "pl": "",
+        "ar": ""
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": "",
+          "de": "",
+          "fr": "",
+          "es": "",
+          "it": "",
+          "nl": "",
+          "pt": "",
+          "pl": "",
+          "ar": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": "",
+          "de": "",
+          "fr": "",
+          "es": "",
+          "it": "",
+          "nl": "",
+          "pt": "",
+          "pl": "",
+          "ar": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": "",
+          "de": "",
+          "fr": "",
+          "es": "",
+          "it": "",
+          "nl": "",
+          "pt": "",
+          "pl": "",
+          "ar": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": "",
+          "de": "",
+          "fr": "",
+          "es": "",
+          "it": "",
+          "nl": "",
+          "pt": "",
+          "pl": "",
+          "ar": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": "",
+          "de": "",
+          "fr": "",
+          "es": "",
+          "it": "",
+          "nl": "",
+          "pt": "",
+          "pl": "",
+          "ar": ""
+        }
+      },
+      "slug": "bmw-3-series",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-30 23:48:35.198434",
+      "_id": "1766869963.599152-12057931-2120-45ac-8f1e-c3524cde0ee1",
+      "images": [
+        "https://www.topgear.com/sites/default/files/2025/08/P90580559_highRes_the-bmw-330e-saloon-.jpg?w=976&h=549",
+        "https://www.topgear.com/sites/default/files/2025/08/P90580560_highRes_the-bmw-330e-saloon-.jpg?w=976&h=549",
+        "https://www.topgear.com/sites/default/files/2025/08/P90580553_highRes_the-bmw-330e-saloon-.jpg?w=892&h=502",
+        "https://www.topgear.com/sites/default/files/2025/08/P90580558_highRes_the-bmw-330e-saloon-.jpg?w=892&h=502",
+        "https://www.topgear.com/sites/default/files/2025/08/P90580551_highRes_the-bmw-330e-saloon-.jpg?w=892&h=502",
+        "https://www.topgear.com/sites/default/files/2025/08/P90580552_highRes_the-bmw-330e-saloon-.jpg?w=892&h=502"
+      ],
+      "editorial": {
+        "content": {
+          "tr": "",
+          "en": ""
+        },
+        "verdict": {
+          "tr": "Otomotiv d\u00fcnyas\u0131n\u0131n en b\u00fcy\u00fck a\u011fa\u00e7lar\u0131ndan biri. Her zamanki gibi g\u00fc\u00e7l\u00fc ve \u015fimdi daha da iyi bir PHEV se\u00e7ene\u011fiyle.",
+          "en": ""
+        },
+        "summary": {
+          "tr": "Otomotiv sekt\u00f6r\u00fcn\u00fcn temel ta\u015flar\u0131ndan biri. VW Golf, Porsche 911 ve Mercedes S-Class gibi, BMW 3 Serisi de t\u00fcm rakiplerinin \u00f6l\u00e7\u00fcld\u00fc\u011f\u00fc standartt\u0131r. Ve bu rakipler neredeyse her zaman daha k\u00f6t\u00fc durumda kal\u0131r.\n\nPeki bu ne kadar daha s\u00fcrecek? Golf, 911 ve S-Class gibi, elektrifikasyonun ger\u00e7ekten yayg\u0131nla\u015fmas\u0131yla 3 Serisi de biraz belirsiz bir gelecekle kar\u015f\u0131 kar\u015f\u0131ya. Tamamen elektrikli bir 3 Serisi mi istiyorsunuz? \u015eu anda buna BMW i4 deniyor. Bu y\u00fczden, yedinci nesil 'G20' BMW 3 Serisinin tad\u0131n\u0131 \u00e7\u0131karmak en iyisi, ne olur ne olmaz.",
+          "en": ""
+        }
+      }
+    },
+    {
+      "id": "646bb8ac-e922-43b5-9d0b-b77d6aa0c97f",
+      "brand": "mercedes",
+      "model": "C-Class",
+      "year": 2024,
+      "segment": "sedan",
+      "image": "https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?w=800",
+      "specs": {
+        "engine": "1.5L Turbo + Mild Hybrid",
+        "power": "204 hp",
+        "torque": "300 Nm",
+        "acceleration": "7.3s",
+        "topSpeed": "246 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Yeni platform, uzun vadeli veriler s\u0131n\u0131rl\u0131",
+            "en": "New platform with limited long-term data"
+          }
+        },
+        "buildQuality": {
+          "score": 9.0,
+          "justification": {
+            "tr": "S-Class kalitesinde malzemeler",
+            "en": "S-Class quality materials"
+          }
+        },
+        "performance": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Yeterli g\u00fc\u00e7, hafif hibrit deste\u011fi",
+            "en": "Adequate power with mild hybrid support"
+          }
+        },
+        "drivingExperience": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Konfor odakl\u0131 ancak yetkin",
+            "en": "Comfort-focused but capable"
+          }
+        },
+        "technology": {
+          "score": 9.2,
+          "justification": {
+            "tr": "MBUX sistemi segment lideri",
+            "en": "MBUX system is segment-leading"
+          }
+        },
+        "safety": {
+          "score": 8.8,
+          "justification": {
+            "tr": "Kapsaml\u0131 g\u00fcvenlik paketleri",
+            "en": "Comprehensive safety packages"
+          }
+        },
+        "costOfOwnership": {
+          "score": 6.0,
+          "justification": {
+            "tr": "Y\u00fcksek servis maliyetleri",
+            "en": "High service costs"
+          }
+        },
+        "design": {
+          "score": 9.0,
+          "justification": {
+            "tr": "Zarif ve modern tasar\u0131m",
+            "en": "Elegant and modern design"
+          }
+        },
+        "valueForMoney": {
+          "score": 6.8,
+          "justification": {
+            "tr": "Premium fiyatland\u0131rma",
+            "en": "Premium pricing"
+          }
+        },
+        "overall": {
+          "score": 8.0,
+          "justification": {
+            "tr": "L\u00fcks ve teknoloji odakl\u0131 se\u00e7enek",
+            "en": "Luxury and technology focused choice"
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "\u00dcst\u00fcn i\u00e7 mekan kalitesi",
+          "\u0130leri teknoloji",
+          "Zarif tasar\u0131m"
+        ],
+        "en": [
+          "Superior interior quality",
+          "Advanced technology",
+          "Elegant design"
+        ]
+      },
+      "weaknesses": {
+        "tr": [
+          "Y\u00fcksek fiyat",
+          "D\u00fc\u015f\u00fck taban motor g\u00fcc\u00fc"
+        ],
+        "en": [
+          "High price",
+          "Low base engine power"
+        ]
+      },
+      "bestFor": {
+        "tr": "L\u00fcks ve prestij arayanlar",
+        "en": "Those seeking luxury and prestige"
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": ""
+        }
+      },
+      "slug": "mercedes-c-class-2024",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-27 21:12:43.599152",
+      "_id": "1766869963.599152-f1d1c702-484a-474f-91d0-99cc71db8ee5"
+    },
+    {
+      "id": "c517dac4-1fb2-4dd8-9a22-305964a604ad",
+      "brand": "toyota",
+      "model": "Camry",
+      "year": 2024,
+      "segment": "sedan",
+      "image": "https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?w=800",
+      "specs": {
+        "engine": "2.5L Hybrid",
+        "power": "218 hp",
+        "torque": "221 Nm",
+        "acceleration": "8.1s",
+        "topSpeed": "180 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 9.5,
+          "justification": {
+            "tr": "Kan\u0131tlanm\u0131\u015f g\u00fcvenilirlik ge\u00e7mi\u015fi",
+            "en": "Proven reliability track record"
+          }
+        },
+        "buildQuality": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Sa\u011flam ancak premium hissi yok",
+            "en": "Solid but lacks premium feel"
+          }
+        },
+        "performance": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Yeterli performans, hibrit verimli",
+            "en": "Adequate performance, efficient hybrid"
+          }
+        },
+        "drivingExperience": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Konforlu ve sessiz",
+            "en": "Comfortable and quiet"
+          }
+        },
+        "technology": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Temel \u00f6zellikler yeterli",
+            "en": "Basic features are adequate"
+          }
+        },
+        "safety": {
+          "score": 8.5,
+          "justification": {
+            "tr": "Toyota Safety Sense standart",
+            "en": "Toyota Safety Sense standard"
+          }
+        },
+        "costOfOwnership": {
+          "score": 9.0,
+          "justification": {
+            "tr": "D\u00fc\u015f\u00fck bak\u0131m, y\u00fcksek de\u011fer koruma",
+            "en": "Low maintenance, high value retention"
+          }
+        },
+        "design": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Fonksiyonel tasar\u0131m",
+            "en": "Functional design"
+          }
+        },
+        "valueForMoney": {
+          "score": 8.5,
+          "justification": {
+            "tr": "G\u00fc\u00e7l\u00fc de\u011fer \u00f6nerisi",
+            "en": "Strong value proposition"
+          }
+        },
+        "overall": {
+          "score": 8.0,
+          "justification": {
+            "tr": "En g\u00fcvenilir se\u00e7enek",
+            "en": "Most reliable choice"
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "Efsanevi g\u00fcvenilirlik",
+          "D\u00fc\u015f\u00fck i\u015fletme maliyeti",
+          "Y\u00fcksek ikinci el de\u011feri"
+        ],
+        "en": [
+          "Legendary reliability",
+          "Low running costs",
+          "High resale value"
+        ]
+      },
+      "weaknesses": {
+        "tr": [
+          "S\u0131radan i\u00e7 mekan",
+          "D\u00fc\u015f\u00fck s\u00fcr\u00fc\u015f heyecan\u0131"
+        ],
+        "en": [
+          "Ordinary interior",
+          "Low driving excitement"
+        ]
+      },
+      "bestFor": {
+        "tr": "G\u00fcvenilirlik arayanlar",
+        "en": "Those seeking reliability"
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": ""
+        }
+      },
+      "slug": "toyota-camry-2024",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-27 21:12:43.599152",
+      "_id": "1766869963.599152-72617424-f45d-4d7d-bd5b-dcb2db3f71c7"
+    },
+    {
+      "id": "a080447e-6be5-427a-ab61-5b0172408aba",
+      "brand": "tesla",
+      "model": "Model 3",
+      "year": 2024,
+      "segment": "electric",
+      "image": "https://images.unsplash.com/photo-1560958089-b8a1929cea89?w=800",
+      "specs": {
+        "engine": "Dual Motor Electric",
+        "power": "340 hp",
+        "torque": "493 Nm",
+        "acceleration": "4.4s",
+        "topSpeed": "233 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 6.5,
+          "justification": {
+            "tr": "Panel uyumu sorunlar\u0131, yaz\u0131l\u0131m g\u00fcvenilir",
+            "en": "Panel gap issues, software reliable"
+          }
+        },
+        "buildQuality": {
+          "score": 6.5,
+          "justification": {
+            "tr": "De\u011fi\u015fken kalite kontrol\u00fc",
+            "en": "Variable quality control"
+          }
+        },
+        "performance": {
+          "score": 9.0,
+          "justification": {
+            "tr": "Anl\u0131k tork, h\u0131zl\u0131 h\u0131zlanma",
+            "en": "Instant torque, rapid acceleration"
+          }
+        },
+        "drivingExperience": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Sessiz ve \u00e7evik",
+            "en": "Quiet and agile"
+          }
+        },
+        "technology": {
+          "score": 9.5,
+          "justification": {
+            "tr": "Segment lideri yaz\u0131l\u0131m ve OTA",
+            "en": "Segment-leading software and OTA"
+          }
+        },
+        "safety": {
+          "score": 8.5,
+          "justification": {
+            "tr": "G\u00fc\u00e7l\u00fc \u00e7arp\u0131\u015fma testi sonu\u00e7lar\u0131",
+            "en": "Strong crash test results"
+          }
+        },
+        "costOfOwnership": {
+          "score": 8.0,
+          "justification": {
+            "tr": "D\u00fc\u015f\u00fck enerji maliyeti, y\u00fcksek sigorta",
+            "en": "Low energy cost, high insurance"
+          }
+        },
+        "design": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Minimalist ancak tart\u0131\u015fmal\u0131",
+            "en": "Minimalist but divisive"
+          }
+        },
+        "valueForMoney": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Segment i\u00e7in rekabet\u00e7i fiyat",
+            "en": "Competitive pricing for segment"
+          }
+        },
+        "overall": {
+          "score": 7.8,
+          "justification": {
+            "tr": "En iyi teknoloji odakl\u0131 EV",
+            "en": "Best tech-focused EV"
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "\u00dcst\u00fcn teknoloji",
+          "H\u0131zl\u0131 h\u0131zlanma",
+          "Geni\u015f \u015farj a\u011f\u0131"
+        ],
+        "en": [
+          "Superior technology",
+          "Rapid acceleration",
+          "Extensive charging network"
+        ]
+      },
+      "weaknesses": {
+        "tr": [
+          "Yap\u0131 kalitesi tutars\u0131zl\u0131klar\u0131",
+          "Minimalist i\u00e7 mekan"
+        ],
+        "en": [
+          "Build quality inconsistencies",
+          "Minimalist interior"
+        ]
+      },
+      "bestFor": {
+        "tr": "Teknoloji merakl\u0131lar\u0131",
+        "en": "Tech enthusiasts"
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": ""
+        }
+      },
+      "slug": "tesla-model-3-2024",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-27 21:12:43.599152",
+      "_id": "1766869963.599152-1fe08b3c-3039-4f43-bb26-18c50247dd19"
+    },
+    {
+      "id": "e0112f9b-575d-4cbe-b8fa-fe5c1de590d8",
+      "brand": "porsche",
+      "model": "911",
+      "year": 2024,
+      "segment": "sports",
+      "image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=800",
+      "specs": {
+        "engine": "3.0L Twin-Turbo Flat-6",
+        "power": "385 hp",
+        "torque": "450 Nm",
+        "acceleration": "4.2s",
+        "topSpeed": "293 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Olgun platform, premium bak\u0131m gerektirir",
+            "en": "Mature platform, requires premium maintenance"
+          }
+        },
+        "buildQuality": {
+          "score": 9.5,
+          "justification": {
+            "tr": "El i\u015f\u00e7ili\u011fi ve hassasiyet",
+            "en": "Handcrafted precision"
+          }
+        },
+        "performance": {
+          "score": 9.8,
+          "justification": {
+            "tr": "Efsanevi performans mimarisi",
+            "en": "Legendary performance architecture"
+          }
+        },
+        "drivingExperience": {
+          "score": 10.0,
+          "justification": {
+            "tr": "Segment tan\u0131mlayan s\u00fcr\u00fc\u015f deneyimi",
+            "en": "Segment-defining driving experience"
+          }
+        },
+        "technology": {
+          "score": 8.0,
+          "justification": {
+            "tr": "S\u00fcr\u00fc\u015f odakl\u0131, yeterli infotainment",
+            "en": "Driving-focused, adequate infotainment"
+          }
+        },
+        "safety": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Spor ara\u00e7 i\u00e7in yeterli sistemler",
+            "en": "Adequate systems for sports car"
+          }
+        },
+        "costOfOwnership": {
+          "score": 5.0,
+          "justification": {
+            "tr": "\u00c7ok y\u00fcksek bak\u0131m ve sigorta",
+            "en": "Very high maintenance and insurance"
+          }
+        },
+        "design": {
+          "score": 9.5,
+          "justification": {
+            "tr": "\u0130konik ve zamans\u0131z",
+            "en": "Iconic and timeless"
+          }
+        },
+        "valueForMoney": {
+          "score": 7.0,
+          "justification": {
+            "tr": "Y\u00fcksek fiyat ancak y\u00fcksek de\u011fer koruma",
+            "en": "High price but high value retention"
+          }
+        },
+        "overall": {
+          "score": 9.0,
+          "justification": {
+            "tr": "Spor ara\u00e7 segmentinin referans noktas\u0131",
+            "en": "Benchmark of sports car segment"
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "Efsanevi s\u00fcr\u00fc\u015f",
+          "Zamans\u0131z tasar\u0131m",
+          "Y\u00fcksek de\u011fer koruma"
+        ],
+        "en": [
+          "Legendary driving",
+          "Timeless design",
+          "High value retention"
+        ]
+      },
+      "weaknesses": {
+        "tr": [
+          "Y\u00fcksek fiyat",
+          "S\u0131n\u0131rl\u0131 pratiklik"
+        ],
+        "en": [
+          "High price",
+          "Limited practicality"
+        ]
+      },
+      "bestFor": {
+        "tr": "Saf s\u00fcr\u00fc\u015f tutkunlar\u0131",
+        "en": "Pure driving enthusiasts"
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": ""
+        }
+      },
+      "slug": "porsche-911-2024",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-27 21:12:43.599152",
+      "_id": "1766869963.599152-ea10a175-5963-4aff-aea7-8a18c40c1221"
+    },
+    {
+      "id": "18eb946f-dfca-49b4-9e68-85390beff5e1",
+      "brand": "hyundai",
+      "model": "Ioniq 5",
+      "year": 2024,
+      "segment": "electric",
+      "image": "https://images.unsplash.com/photo-1644143379190-08a5f055de1d?w=800",
+      "specs": {
+        "engine": "Dual Motor Electric",
+        "power": "325 hp",
+        "torque": "605 Nm",
+        "acceleration": "5.1s",
+        "topSpeed": "185 km/h"
+      },
+      "scores": {
+        "reliability": {
+          "score": 7.5,
+          "justification": {
+            "tr": "Yeni platform ancak Hyundai g\u00fcvenilirli\u011fi",
+            "en": "New platform but Hyundai reliability"
+          }
+        },
+        "buildQuality": {
+          "score": 8.0,
+          "justification": {
+            "tr": "\u0130yi malzeme kalitesi",
+            "en": "Good material quality"
+          }
+        },
+        "performance": {
+          "score": 8.5,
+          "justification": {
+            "tr": "G\u00fc\u00e7l\u00fc elektrik motoru",
+            "en": "Powerful electric motor"
+          }
+        },
+        "drivingExperience": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Rahat ve \u00e7evik",
+            "en": "Comfortable and agile"
+          }
+        },
+        "technology": {
+          "score": 9.0,
+          "justification": {
+            "tr": "800V \u015farj, V2L \u00f6zelli\u011fi",
+            "en": "800V charging, V2L feature"
+          }
+        },
+        "safety": {
+          "score": 8.5,
+          "justification": {
+            "tr": "Kapsaml\u0131 g\u00fcvenlik sistemleri",
+            "en": "Comprehensive safety systems"
+          }
+        },
+        "costOfOwnership": {
+          "score": 8.0,
+          "justification": {
+            "tr": "Rekabet\u00e7i fiyat, d\u00fc\u015f\u00fck i\u015fletme",
+            "en": "Competitive price, low running costs"
+          }
+        },
+        "design": {
+          "score": 9.0,
+          "justification": {
+            "tr": "Cesur ve \u00f6zg\u00fcn retro-f\u00fct\u00fcristik",
+            "en": "Bold and unique retro-futuristic"
+          }
+        },
+        "valueForMoney": {
+          "score": 8.5,
+          "justification": {
+            "tr": "Segment i\u00e7in m\u00fckemmel de\u011fer",
+            "en": "Excellent value for segment"
+          }
+        },
+        "overall": {
+          "score": 8.4,
+          "justification": {
+            "tr": "En dengeli EV se\u00e7ene\u011fi",
+            "en": "Most balanced EV option"
+          }
+        }
+      },
+      "strengths": {
+        "tr": [
+          "H\u0131zl\u0131 \u015farj",
+          "\u00d6zg\u00fcn tasar\u0131m",
+          "V2L \u00f6zelli\u011fi"
+        ],
+        "en": [
+          "Fast charging",
+          "Unique design",
+          "V2L feature"
+        ]
+      },
+      "weaknesses": {
+        "tr": [
+          "S\u0131n\u0131rl\u0131 arka g\u00f6r\u00fc\u015f",
+          "Karma\u015f\u0131k klima kontrolleri"
+        ],
+        "en": [
+          "Limited rear visibility",
+          "Complex climate controls"
+        ]
+      },
+      "bestFor": {
+        "tr": "De\u011fer arayan EV al\u0131c\u0131lar\u0131",
+        "en": "Value-seeking EV buyers"
+      },
+      "reliability_details": {
+        "engine": {
+          "tr": "",
+          "en": ""
+        },
+        "transmission": {
+          "tr": "",
+          "en": ""
+        },
+        "electronics": {
+          "tr": "",
+          "en": ""
+        },
+        "materials": {
+          "tr": "",
+          "en": ""
+        },
+        "editor_note": {
+          "tr": "",
+          "en": ""
+        }
+      },
+      "slug": "hyundai-ioniq-5-2024",
+      "createdAt": "2025-12-27 21:12:43.599152",
+      "updatedAt": "2025-12-27 21:12:43.599152",
+      "_id": "1766869963.599152-863da584-c5c3-4a7d-aca5-87863875a3ce"
+    }
+  ],
+  "users": [
+    {
+      "id": "ecef98b1-ea90-405e-af07-6901359f81f8",
+      "name": "\u00d6mer Tekneci",
+      "email": "admin@getto.com",
+      "password_hash": "$2b$12$pXylHqS1DTD9llKRGNx0..6CMUxC1hPz7rO2LUZDpVvu2LkxFJMRq",
+      "isAdmin": true,
+      "favorites": [],
+      "createdAt": "2025-12-28 00:38:21.973979",
+      "_id": "1766882301.973979"
+    },
+    {
+      "id": "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8",
+      "name": "\u00d6mer Tekneci",
+      "email": "admin@gettoreal.com",
+      "password_hash": "$pbkdf2-sha256$29000$vrd2bg3hPOfc./9/r7U2Bg$UNltZSL.GY65yXAfWMTFVkKgcCNauYLvOceyQI.pkv8",
+      "isAdmin": true,
+      "favorites": [],
+      "createdAt": "2025-12-28 11:43:56.545842",
+      "_id": "1766922236.545842"
+    },
+    {
+      "id": "ee23ef32-2264-4cdc-a034-54025cfdff68",
+      "name": "Otorite Admin",
+      "email": "admin@otorite.com",
+      "password_hash": "$pbkdf2-sha256$29000$g9C6N0aoVWrt/f.fkxKitA$bMe.eIgCrCx.l9Ey7ogBA..3is/hszCVT6DCo3gaQag",
+      "isAdmin": true,
+      "favorites": [],
+      "createdAt": "2025-12-31 02:53:01.116079",
+      "_id": "1767138781.116079"
+    }
+  ],
+  "news": [
+    {
+      "id": "d1837c9e-e96f-42b6-9105-0dafd97904d4",
+      "title": "BMW 3 Series review",
+      "summary": "\u201cOne of the automotive woodland's great oaks. As strong as ever, and now with an even better PHEV option\u201d",
+      "content": "Overview\nWhat is it?\nIt\u2019s one of the automotive pillars. Much like the VW Golf, Porsche 911 and Mercedes S-Class, the BMW 3 Series is the standard by which all of its peers are measured. And those peers nigh on always come off worse.\n\nBut for how much longer? Just like the Golf, 911, and S-Class, the 3 Series faces a somewhat uncertain future as electrification really takes hold. You want a fully electric Three? It\u2019s currently called a BMW i4. So best to savour this seventh-generation \u2018G20\u2019 BMW 3 Series, just in case.\n\nThey wouldn\u2019t get rid of it though\u2026\nIt\u2019d be a surprise if they did. At the launch of the facelift in 2022, phrases like \u2018core of the brand\u2019 and \u2018a BMW icon\u2019 were thrown around at will.\n\nBut don\u2019t forget BMW is launching another \u2018Neue Klasse\u2019 saloon in the coming years. Last time that happened \u2013 in the 1960s \u2013 it shored up the company\u2019s finances and gave the brand a whole new identity, bringing the Hofmeister Kink design flourish with it. The company books don\u2019t need any help this time around, but the all-electric second coming of the Neue Klasse is reimagining BMW\u2019s cars from the ground up, right down to making interior trim out of recycled fishing nets. True fact.\n\nThat\u2019s the future. What about now?\nLaunched in 2018, the G20 3 Series was treated to a mid-life facelift in 2022 that mostly spruced things up on a surface level, keeping the core components just as they were. This was good news. However, it did also bring with it BMW\u2019s swish curved touchscreen infotainment setup; the plus side of that is a dazzling display that\u2019ll make anyone coo, however addicted (or not) they are to their smartphones. The downside is the inevitable hoovering up of physical buttons, climate control included. A similar move proved the undoing of one of the Three\u2019s fellow pillars, the VW Golf.\n\nBecause that facelift was mostly cosmetic, BMW then tweaked the G20 once again in 2024. This time it updated the iDrive to run the new BMW Operating System 8.5, tuned the chassis for a more comfortable ride, and fitted the plug-in hybrid 330e with a new Gen5 19.5kWh battery for faster charging and 63 miles of all-electric range.\n\nAt the same time, the diesel engines were also removed from sale in the UK. Shame.\n\nCan the 3 Series remain unshaken?\nWithout wishing to jump right to the end, yes. This particular automotive pillar remains resolute, thanks in part to the dynamics team knowing a good thing when they\u2019ve got it and not over-complicating it. Same goes for the design team, for that matter. Although as previously mentioned, the engine range in the UK was simplified with the 2024 update. The 320d and M340d diesels were dropped, as was the 330i petrol.\n\nThat means you\u2019ve now got the 320i and M340i as your pure petrol options \u2013 the latter with 48V mild hybrid boost as well as standard xDrive four-wheel-drive. Then the updated 330e is your full plug-in hybrid. Its on-paper stats have always made it essentially unbeatable in the rep car arena, even minimising the appeal of the 320d, once the prefect of that class.\n\nOf course, we\u2019re also just talking about the 3 Series saloon here, but if you need huge boot space then you can upgrade to the 3 Series Touring. We\u2019ve given that its own review at this link. And there\u2019s the small matter of the snouty M3. You can read all about the 523bhp saloon by clicking here, or the ultimate dog wagon \u2013 the M3 Touring \u2013 by clicking these words.\n\nHow much does a standard 3 Series cost these days?\nAt the time of writing in mid-2025, the range kicks off with a 320i in entry-level Sport trim costing \u00a341,310. The plug-in hybrid 330e in the same trim starts from \u00a347,185, while you\u2019ll need to pay at least \u00a362,080 for the six-cylinder M340i in its fancy M Sport Pro trim.\n\nWhat can claim to rival a 3 Series, then?\nWell, the Audi A4 has morphed into the A5, but it\u2019s still a strong competitor. Then you\u2019ve got the Mercedes C-Class and Alfa Romeo Giulia. The Volkswagen Passat is now estate-only, and Volvo also only offers its big-booted V60 rather than the S60 saloon.\n\nDon\u2019t care about the badge on the back? You could have a giant Skoda Superb for similar money.",
+      "image": "https://www.topgear.com/sites/default/files/2025/08/P90580559_highRes_the-bmw-330e-saloon-.jpg?w=976&h=549",
+      "author": "Admin",
+      "tags": [
+        "bmw",
+        "320i"
+      ],
+      "viewCount": 21,
+      "isPublished": true,
+      "publishedAt": "2025-12-27 23:43:49.037031",
+      "createdAt": "2025-12-27 23:43:49.038137",
+      "updatedAt": "2025-12-27 23:43:49.038137",
+      "_id": "1766879029.038137"
+    }
+  ],
+  "garage": [
+    {
+      "id": "eea8acbb-31ad-4a77-9cbe-15ce8b2896f8",
+      "userId": "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8",
+      "brand": "audi",
+      "model": "A6 45 TFSI",
+      "year": 2025,
+      "color": "Siyah",
+      "image": "https://scontent.fsaw2-3.fna.fbcdn.net/v/t39.30808-6/600440252_1729612097997379_5752167017128432574_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aa7b47&_nc_ohc=BT8pHjs3We8Q7kNvwFmru1G&_nc_oc=AdmmPLqp_xIz7NK_if5xbI7aiPChsK0oG9VarnM8vludnAne1UP_Yh7_8x-_bFjLh0c&_nc_zt=23&_nc_ht=scontent.fsaw2-3.fna&_nc_gid=c94kX0-vFL0FCaD6saCWAg&oh=00_AflMFz0g8oooL_X5cR9l1Btvkl9q6LnQNOxQY6H2nVmvYA&oe=6958D09B",
+      "images": [],
+      "description": "",
+      "modifications": [],
+      "isPublic": true,
+      "likes": [
+        "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8"
+      ],
+      "comments": [],
+      "createdAt": "2025-12-29 23:09:18.533798",
+      "updatedAt": "2025-12-29 23:09:18.533798",
+      "_id": "1767049758.533798"
+    },
+    {
+      "id": "a6350c00-dcb2-4611-b410-6b05a97d7be1",
+      "userId": "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8",
+      "brand": "tesla",
+      "model": "Model Y",
+      "year": 2025,
+      "color": "Siyah",
+      "image": "https://preview.redd.it/juniper-at-sunset-v0-0wt9qnug8r5f1.jpeg?auto=webp&s=83027f48b0c4b233ef9db24b223a257a74dcf929",
+      "images": [
+        "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/model-y-juniper-delivery.jpg"
+      ],
+      "description": "TESTTESTTESTTESTTESTTESTTESTTESTTESTTEST",
+      "modifications": [],
+      "isPublic": true,
+      "ownershipDate": "2025-07-12 00:00:00",
+      "purchaseReason": "TEST",
+      "averageMonthlyExpense": 1700,
+      "ownerRating": 8.0,
+      "maintenanceHistory": [],
+      "isForSale": false,
+      "fuelType": "Elektrik",
+      "bodyType": "SUV",
+      "aiSummary": "",
+      "likes": [
+        "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8"
+      ],
+      "comments": [],
+      "createdAt": "2025-12-30 20:13:23.326025",
+      "updatedAt": "2025-12-30 20:13:23.326025",
+      "_id": "1767125603.326025"
+    },
+    {
+      "id": "7075bef2-4af3-45b4-b7c6-eee19526d0c8",
+      "userId": "8025c7d9-5ebd-4f5d-b1fe-abf3780e23f8",
+      "brand": "tesla",
+      "model": "Model Y",
+      "year": 2025,
+      "color": "Siyah",
+      "image": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/model-y-juniper-delivery.jpg",
+      "images": [],
+      "description": "Model YModel YModel YModel YModel Y",
+      "modifications": [
+        "Model Y"
+      ],
+      "isPublic": true,
+      "ownershipDate": "2025-12-09 00:00:00",
+      "purchaseReason": "Model YModel YModel Y",
+      "averageMonthlyExpense": 1790,
+      "ownerRating": 8.0,
+      "maintenanceHistory": [
+        "Model Y",
+        "TESTTTTSS"
+      ],
+      "isForSale": true,
+      "fuelType": "Elektrik",
+      "bodyType": "SUV",
+      "aiSummary": "",
+      "likes": [],
+      "comments": [],
+      "createdAt": "2025-12-30 20:14:33.091563",
+      "updatedAt": "2025-12-30 23:07:22.356173",
+      "_id": "1767125673.091563"
+    }
+  ],
+  "blog_posts": [],
+  "reviews": []
+}

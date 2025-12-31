@@ -1,0 +1,25 @@
+
+
+--- ERROR AI yanıtı uygun formatta değildi. ---
+```json
+{
+    "aiSummary": "Kullanıcının geniş bütçesi, SUV tipi araç, aile kullanımı, performans, prestij ve konfor önceliklerine rağmen, mevcut veritabanında doğrudan SUV kategorisinde bir araç bulunmamaktadır. Bu nedenle, kullanıcı profilindeki 'aile', 'konfor' ve 'performans' gibi diğer önemli kriterleri karşı
+
+--- ERROR AI yanıtı uygun formatta değildi. ---
+```json
+{
+    "aiSummary": "Kullanıcı, bütçesi dahilinde şehir içi ve aile kullanımına uygun, konfor, teknoloji ve prestij odaklı bir sedan arıyor. Yakıt tipi ve ekonomisi öncelikleri arasında düşük sırada yer alıyor.",
+    "recommendations": [
+        {
+            "brand": "Mercedes",
+            "
+
+--- ERROR AI yanıtı uygun formatta değildi. ---
+```json
+{
+    "aiSummary": "Veritabanındaki araçların fiyat ve yakıt tipi bilgileri belirsiz olduğu için, bütçenize ve benzin tercihinize tam olarak uygunluğunu teyit edemiyoruz. Ancak, belirlediğiniz sedan tipi, konfor, prestij ve performans önceliklerinize göre potansiyel olarak uygun
+
+--- ERROR AI yanıtı uygun formatta değildi. ---
+```json
+{
+    "aiSummary": "Geniş aileniz, arazi ve performans beklentileriniz ile birlikte konfor ve prestiji ön planda tutan yüksek bütçeli bir SUV arayışındasınız. Türkiye piyasasında bu kriterlere uygun, hem şehir içi hem de uzun yolda üstün sürüş deneyimi sunan lüks SUV
