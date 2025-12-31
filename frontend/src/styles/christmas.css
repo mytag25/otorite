@@ -1,0 +1,387 @@
+/* ========================================
+   🎄 CHRISTMAS THEME STYLES
+   ======================================== */
+
+/* Christmas Color Variables */
+:root {
+    --christmas-red: #c41e3a;
+    --christmas-red-light: #e74c3c;
+    --christmas-green: #165b33;
+    --christmas-green-light: #1e7a46;
+    --christmas-gold: #f8b229;
+    --christmas-gold-light: #ffd700;
+    --christmas-snow: #ffffff;
+    --christmas-ice: #e0f7fa;
+}
+
+/* ========================================
+   Global Christmas Mode
+   ======================================== */
+body.christmas-mode {
+    /* Subtle festive tint on the background */
+    background: linear-gradient(135deg,
+            rgba(196, 30, 58, 0.03) 0%,
+            rgba(15, 23, 42, 1) 25%,
+            rgba(15, 23, 42, 1) 75%,
+            rgba(22, 91, 51, 0.03) 100%);
+}
+
+/* ========================================
+   Christmas Accent Colors
+   ======================================== */
+body.christmas-mode .bg-amber-500,
+body.christmas-mode .bg-amber-600 {
+    background: linear-gradient(135deg, var(--christmas-red) 0%, var(--christmas-red-light) 100%) !important;
+}
+
+body.christmas-mode .text-amber-500,
+body.christmas-mode .text-amber-400 {
+    color: var(--christmas-gold) !important;
+}
+
+body.christmas-mode .border-amber-500\/20,
+body.christmas-mode .border-amber-500\/30 {
+    border-color: rgba(248, 178, 41, 0.3) !important;
+}
+
+body.christmas-mode .shadow-amber-500\/20 {
+    box-shadow: 0 10px 40px rgba(196, 30, 58, 0.2) !important;
+}
+
+/* ========================================
+   Festive Glow Effects
+   ======================================== */
+body.christmas-mode .glass-panel {
+    border-color: rgba(248, 178, 41, 0.15);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.3),
+        0 0 60px rgba(196, 30, 58, 0.05),
+        0 0 100px rgba(22, 91, 51, 0.03);
+}
+
+body.christmas-mode .glass-panel:hover {
+    border-color: rgba(248, 178, 41, 0.25);
+    box-shadow:
+        0 8px 32px rgba(0, 0, 0, 0.4),
+        0 0 80px rgba(196, 30, 58, 0.1),
+        0 0 120px rgba(22, 91, 51, 0.05);
+}
+
+/* ========================================
+   Christmas Logo Treatment
+   ======================================== */
+body.christmas-mode .logo-text {
+    background: linear-gradient(135deg,
+            var(--christmas-red) 0%,
+            var(--christmas-gold) 50%,
+            var(--christmas-green) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-size: 200% 200%;
+    animation: christmas-gradient 3s ease infinite;
+}
+
+@keyframes christmas-gradient {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+/* ========================================
+   Snowflake Cursor (Optional)
+   ======================================== */
+body.christmas-mode * {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='white'%3E%3Cpath d='M12 0L14 8H22L16 13L18 21L12 16L6 21L8 13L2 8H10L12 0Z'/%3E%3C/svg%3E") 12 12, auto;
+}
+
+body.christmas-mode a,
+body.christmas-mode button,
+body.christmas-mode [role="button"] {
+    cursor: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24' fill='%23f8b229'%3E%3Cpath d='M12 0L14 8H22L16 13L18 21L12 16L6 21L8 13L2 8H10L12 0Z'/%3E%3C/svg%3E") 12 12, pointer;
+}
+
+/* ========================================
+   Christmas Badge Styles
+   ======================================== */
+body.christmas-mode .badge-christmas {
+    background: linear-gradient(135deg, var(--christmas-red) 0%, var(--christmas-green) 100%);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 9999px;
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    animation: badge-glow 2s ease-in-out infinite;
+}
+
+@keyframes badge-glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px rgba(196, 30, 58, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(22, 91, 51, 0.5);
+    }
+}
+
+/* ========================================
+   Snowfall Keyframes
+   ======================================== */
+@keyframes snowfall {
+    0% {
+        transform: translateY(-10vh) translateX(0) rotate(0deg);
+        opacity: 1;
+    }
+
+    100% {
+        transform: translateY(110vh) translateX(50px) rotate(360deg);
+        opacity: 0.3;
+    }
+}
+
+@keyframes snowfall-sway {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(20px);
+    }
+}
+
+/* ========================================
+   Christmas Lights Animation
+   ======================================== */
+@keyframes light-flicker {
+
+    0%,
+    100% {
+        opacity: 1;
+        filter: brightness(1.2);
+    }
+
+    50% {
+        opacity: 0.7;
+        filter: brightness(0.8);
+    }
+}
+
+@keyframes light-glow-red {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px var(--christmas-red), 0 0 20px var(--christmas-red);
+    }
+
+    50% {
+        box-shadow: 0 0 20px var(--christmas-red), 0 0 40px var(--christmas-red);
+    }
+}
+
+@keyframes light-glow-green {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px var(--christmas-green), 0 0 20px var(--christmas-green);
+    }
+
+    50% {
+        box-shadow: 0 0 20px var(--christmas-green), 0 0 40px var(--christmas-green);
+    }
+}
+
+@keyframes light-glow-gold {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px var(--christmas-gold), 0 0 20px var(--christmas-gold);
+    }
+
+    50% {
+        box-shadow: 0 0 20px var(--christmas-gold), 0 0 40px var(--christmas-gold);
+    }
+}
+
+@keyframes light-glow-blue {
+
+    0%,
+    100% {
+        box-shadow: 0 0 10px #00bfff, 0 0 20px #00bfff;
+    }
+
+    50% {
+        box-shadow: 0 0 20px #00bfff, 0 0 40px #00bfff;
+    }
+}
+
+/* ========================================
+   Christmas Decorations
+   ======================================== */
+.christmas-tree-icon {
+    animation: tree-sway 3s ease-in-out infinite;
+}
+
+@keyframes tree-sway {
+
+    0%,
+    100% {
+        transform: rotate(-2deg);
+    }
+
+    50% {
+        transform: rotate(2deg);
+    }
+}
+
+.christmas-star {
+    animation: star-twinkle 1.5s ease-in-out infinite;
+}
+
+@keyframes star-twinkle {
+
+    0%,
+    100% {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+    50% {
+        opacity: 0.6;
+        transform: scale(0.9);
+    }
+}
+
+.christmas-bell {
+    animation: bell-ring 2s ease-in-out infinite;
+    transform-origin: top center;
+}
+
+@keyframes bell-ring {
+
+    0%,
+    100% {
+        transform: rotate(0deg);
+    }
+
+    10% {
+        transform: rotate(15deg);
+    }
+
+    20% {
+        transform: rotate(-15deg);
+    }
+
+    30% {
+        transform: rotate(10deg);
+    }
+
+    40% {
+        transform: rotate(-10deg);
+    }
+
+    50% {
+        transform: rotate(5deg);
+    }
+
+    60% {
+        transform: rotate(0deg);
+    }
+}
+
+.christmas-gift {
+    animation: gift-bounce 2s ease-in-out infinite;
+}
+
+@keyframes gift-bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-5px);
+    }
+}
+
+/* ========================================
+   Festive Button Overrides
+   ======================================== */
+body.christmas-mode .btn-primary,
+body.christmas-mode button[class*="bg-amber"] {
+    background: linear-gradient(135deg, var(--christmas-red) 0%, var(--christmas-red-light) 100%) !important;
+    border: none;
+    position: relative;
+    overflow: hidden;
+}
+
+body.christmas-mode .btn-primary::before,
+body.christmas-mode button[class*="bg-amber"]::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg,
+            transparent,
+            rgba(255, 255, 255, 0.2),
+            transparent);
+    animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+    100% {
+        left: 100%;
+    }
+}
+
+/* ========================================
+   Card Festive Border
+   ======================================== */
+body.christmas-mode .vehicle-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 3px;
+    background: linear-gradient(90deg,
+            var(--christmas-red) 0%,
+            var(--christmas-gold) 25%,
+            var(--christmas-green) 50%,
+            var(--christmas-gold) 75%,
+            var(--christmas-red) 100%);
+    background-size: 200% 100%;
+    animation: gradient-move 3s linear infinite;
+}
+
+@keyframes gradient-move {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 200% 0%;
+    }
+}
+
+/* ========================================
+   Mobile Optimizations
+   ======================================== */
+@media (max-width: 768px) {
+    body.christmas-mode * {
+        cursor: auto !important;
+    }
+}
